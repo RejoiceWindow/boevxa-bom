@@ -1,0 +1,1 @@
+import{r as e}from"./index.1660443802877.js";const r="/api/system/location/";function n(t){return e({url:r,method:"get",params:t})}function o(t){return e({url:r,method:"post",data:t})}function u(t){return e({url:r+t.id+"/",method:"put",data:t})}function d(t){return e({url:r+t+"/",method:"delete",data:{id:t}})}export{o as A,d as D,n as G,u as U};
